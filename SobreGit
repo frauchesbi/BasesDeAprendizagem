@@ -1,0 +1,77 @@
+O que é Git: os primeiros passos nessas ferramentas
+_________________________________________________________________________________________________________________________________________________________________________
+
+O Git é um sistema de controle de versão de arquivos; em outras palavras, é responsável por guardar o histórico de alterações sempre que alguém modificar algum arquivo que está sendo monitorado por ele.
+
+.O que é Git e para que serve?
+Em uma equipe, apenas poder acessar o código de outras pessoas colaboradoras não é suficiente.
+Mais do que isso: precisamos manter o histórico dos nossos arquivos e das nossas modificações.
+Afinal de contas, muitas vezes mudamos arquivos em grupo, num movimento único — que, no contexto do Git, é um commit. O que, em tradução literal para português, significa “compromisso” ou “comprometer-se” às alterações em um repositório.
+Dessa forma, podemos voltar atrás e recuperar o estado do sistema: como ele era ontem, ou no ano passado, comparar as mudanças para encontrar bugs e estudar otimizações.
+
+.Como funciona o Git?
+Mas como será que o Git guarda todas essas informações?
+Todos os nossos arquivos, assim como seus históricos, ficam em um repositório e existiam vários sistemas que gerenciam repositórios assim, como CVS (Sistema de Versões Concorrentes) e SVN (Subversion do Apache).
+O Git é uma alternativa com um funcionamento mais interessante ainda: ele é distribuído e todo mundo tem uma cópia inteira do repositório, não apenas o "servidor principal".
+E uma das vantagens disso é que cada pessoa pode desenvolver offline, realizando seus commits e outras operações sem depender de uma conexão constante com o servidor principal.
+
+.o que é a ferramenta Git exatamente?
+O Git é um sistema de controle de versão distribuído e amplamente adotado. O Git nasceu e foi tomando espaço dos outros sistemas de controle.
+
+.Como executar o Git?
+
+1. Configure seu nome de usuário e e-mail:
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
+O Git registra quem fez cada alteração no código. Portanto, é importante configurar seu nome de usuário e e-mail. Use os comandos, no terminal:
+2.Para começar a rastrear seu código, crie um repositório Git em seu projeto. Navegue até a pasta do seu projeto e execute:
+ Crie um Repositório Git:
+git init
+3. Adicione Arquivos ao Controle de Versão:
+Use o comando git add para adicionar arquivos ao "staging area", que é onde você prepara os arquivos para serem “commitados” ou salvos.
+git add nome-do-arquivo
+4. Faça um Commit:
+Um commit é um snapshot de suas alterações. Use o comando git commit para criar um commit com uma mensagem descritiva do que foi alterado no projeto.
+git commit -m "Sua mensagem de commit aqui"
+5. Visualize o Histórico de Commits:
+Use git log para ver o histórico de commits no repositório.
+git log
+
+
+Conceitos fundamentais do Git
+Para o funcionamento do Git, existem conceitos com nomenclaturas um tanto diferentes, que são:
+
+Repositórios, commits e árvores (Trees)
+Um repositório é como uma pasta ou diretório que contém todos os arquivos e o histórico de um projeto.
+
+Já o termo commit pode ter como tradução literal “compromisso”, que seria uma ação em que você faz uma alteração no projeto, se compromete e salva suas alterações no histórico do projeto.
+
+Ou seja, cada commit é uma entrada no histórico que contém informações sobre as alterações feitas.
+
+Árvores, por último, representam a estrutura do diretório e arquivos em um commit específico, que tem como função registrar a organização do projeto ao longo do histórico de desenvolvimento.
+
+Ramificações (Branches) e fusões (Merges)
+As “ramificações” ou branches permitem que você crie linhas separadas de desenvolvimento para trabalhar em recursos ou correções sem afetar a linha principal do projeto.
+
+Cada branch é uma ramificação independente do código-fonte, possibilitando que você isole e desenvolva novas funcionalidades, refatore o código ou faça correções e testes em paralelo, sem interferir no código existente na branch principal, que geralmente é nomeada como "main".
+
+Em um projeto com branches diferentes, a fusão, ou merge, permite combinar as alterações dessas branches de volta à linha principal, quando as alterações estão prontas.
+
+Controle de versão distribuído
+Existem dois tipos de sistemas de controle de versão. Em um deles, pode haver um único servidor central que armazena o projeto com seu histórico, com o qual as pessoas desenvolvedoras precisam interagir. Isso é característico de um sistema de Controle de Versão Centralizado.
+
+No outro tipo, cada pessoa desenvolvedora pode manter uma cópia do projeto em sua máquina local, o que é conhecido como Controle de Versão Distribuído, que é o caso do Git.
+
+==
+
+.Quais são os principais comandos do Git?
+
+Git init;
+Git clone;
+Git status;
+Git add;
+Git commit;
+Git log;
+Git branch;
+Git checkout;
+Git diff.
