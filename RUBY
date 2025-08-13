@@ -1,1 +1,59 @@
+Passo a passo estudos sobre Ruby
 
+💎 Módulo 1: Fundamentos - Lógica de programação
+♦️ Instalação e configuração do ambiente
+♦️ Entrada e Saída de Dados
+♦️ Operações em Strings
+♦️ Condicionais
+♦️ Laço de Repetição
+♦️ Métodos
+♦️ Arrais e Hash
+
+💎 Módulo 2: Arquivos, Modulos e Gems
+♦️ Leitura e escrita de Arquivos(Txt, Csv, Planilha)
+♦️ Criação de Módulos 
+♦️ Módulos Nativos(CSV, URI/HTTP, Math)
+♦️ Instalação de Gems
+♦️ Gem File
+♦️ Gems Faker e Roo
+♦️ Projeto: Extração de dados de uma planilha
+
+💎 Módulo 3: Programação Orientada a Objetos
+♦️ Conceitos
+♦️ Variável e método de instância
+♦️ Método construtor
+♦️ Encapsulamento
+♦️ Herança
+♦️ Polimorfismo
+♦️ Projeto: Transação financeira 
+
+💎 Módulo 4: Integração com Bancos de Dados
+♦️ SQL
+♦️ SGBD (PostgreSQL e MongoDB)
+♦️ ORM 
+♦️ NoSQL
+♦️ Projeto: Gerenciamento de estoque
+
+💎 Módulo 5: Ruby  Avançado
+♦️ Objeto Data
+♦️ Objeto Time
+♦️ Expressões Regulares
+♦️ Testes (Exercício: Teste em calculadora)
+
+💎 Módulo 6: Ruby On Rails [Em Breve]
+♦️ Rails Fundamentos
+
+💎 Módulo 7 - Aprofundando no Model [Em Breve]
+💎 Módulo 8 - Aprofundando no Controller [Em Breve]
+💎 Módulo 9 - Aprofundando na View [Em Breve]
+💎 Módulo 10 - Autenticação e Autorização [Em Breve]
+💎 Módulo 11 - APIs e Serviços Web [Em Breve]
+💎 Módulo 12 - Testes e Qualidade de Código [Em Breve]
+💎 Módulo 13 - Deployment e Produção [Em Breve]
+💎 Módulo 14 - Projeto Final [Em Breve]
+
+💎 Projetos Bônus
+✅ Bootcamp (e-Commerce Profissional)
+✅ Find My Coffee (RoR, React e React Native)
+✅ Spotcode (Ruby on Rails Full Stack)
+✅ Onebitfood (Ruby on Rails e Next.JS)
