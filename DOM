@@ -1,0 +1,32 @@
+O que é o DOM?
+==
+A tradução do acrônimo inglês DOM (Document Object Model) significa Modelo de Documento do Objeto; trata-se da modelagem de todo o HTML.
+A partir da sua quinta versão, o HTML até então estático, além das melhorias na estrutura e separação da semântica da estilização, ganhou interatividade com a criação da linguagem de programação JavaScript, e é nesse momento que surge o DOM.
+
+-Abstrações e analogias.
+
+Estrutura
+O DOM é como uma árvore genealógica, porém, de forma invertida. O elemento que antecede o document é o window, que nada mais é que a janela do navegador. Em sua estrutura, o document está no topo como objeto global e tem como elemento raiz a tag html e todas as outras descendem dela através das suas ramificações (branchs).
+A tag html, objeto pai, apresenta dois objetos filhos: o head e o body (o cabeçalho e o corpo). Os objetos que seguem nas ramificações de baixo são denominados como child, e os de cima, parent. A tag head é parent da tag title, e a body é parent das tags a e h1, e assim sucessivamente, de acordo com a hierarquia. Das tags, derivam os atributos e destes, seus valores.
+
+No código, ele ficaria traduzido dessa maneira:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My title</title>
+</head>
+<body>
+    <a href="My link"></a>
+    <h1>My header</h1>
+</body>
+
+====
+
+Conclusão
+O DOM é um conjunto de objetos e sua estrutura de dados é representada através de um diagrama, ou de forma figurativa, uma árvore de objetos.
+
+Quando se fala do desenvolvimento web básico, temos a tríade inseparável: HTML, CSS e JavaScript, cada um com o seu papel. Conhecer a base da programação e o que eles representam é essencial para poder avançar com frameworks e bibliotecas como Angular, Vue.js e React.
+
+A tecnologia é uma área dinâmica, e assim como em diversos aspectos da nossa vida, não é necessário ter um dom para realizar algo, mas sim, estudo contínuo e muita prática.
+</html>
